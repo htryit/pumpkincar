@@ -179,42 +179,6 @@ $(function() {
 		ispress = false;
 		cpos = null;
 	});
-	
-	/*
-	$("#test").html(navigator.userAgent +"<br/>"+navigator.appVersion + "<br/><br/>" + ismobile());
-	
-	
-	$('input.opt').click(function() {
-		var btn = $(this);
-		var opt = parseInt($(this).attr('opt'));
-		var run = $(this).attr('run');
-		
-		if (opt < 5) {
-			if (run == 1) {
-				opt = 5;
-				$(this).attr('run', 0);
-			}  else {
-				$(this).attr('run', 1);
-			}
-		}
-		
-		$.ajax({
-			url :'/ctrl?opt='+opt,
-			type:'get',
-			success:function() {				
-				if (opt == 8) {
-					btn.attr('opt',7);
-				
-				setTimeout(function() {
-						$("#imgpreview").attr('src', 'http://192.168.6.20:8080/?action=stream&t='+Math.random());
-					}, 1000);
-				} else if (opt == 7) {
-					btn.attr('opt',8);
-				}
-			}
-		});
-	});*/
-	
 });
 </script>
 </body>
